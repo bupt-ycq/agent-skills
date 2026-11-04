@@ -1,0 +1,66 @@
+[
+  {
+    "name": "layout_three_columns",
+    "storage": "<ac:layout><ac:layout-section ac:type=\"three_equal\"><ac:layout-cell><p>结论</p></ac:layout-cell><ac:layout-cell><p>验证</p></ac:layout-cell><ac:layout-cell><p>下一步</p></ac:layout-cell></ac:layout-section></ac:layout>"
+  },
+  {
+    "name": "callouts",
+    "storage": "<ac:structured-macro ac:name=\"info\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">info 提示</ac:parameter>\n<ac:rich-text-body><p>能力探测示例。</p></ac:rich-text-body>\n</ac:structured-macro><ac:structured-macro ac:name=\"tip\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">tip 提示</ac:parameter>\n<ac:rich-text-body><p>能力探测示例。</p></ac:rich-text-body>\n</ac:structured-macro><ac:structured-macro ac:name=\"note\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">note 提示</ac:parameter>\n<ac:rich-text-body><p>能力探测示例。</p></ac:rich-text-body>\n</ac:structured-macro><ac:structured-macro ac:name=\"warning\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">warning 提示</ac:parameter>\n<ac:rich-text-body><p>能力探测示例。</p></ac:rich-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "panel",
+    "storage": "<ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">结论</ac:parameter>\n<ac:parameter ac:name=\"borderStyle\">solid</ac:parameter>\n<ac:parameter ac:name=\"borderColor\">#DFE1E6</ac:parameter>\n<ac:parameter ac:name=\"bgColor\">#F4F5F7</ac:parameter>\n<ac:parameter ac:name=\"titleBGColor\">#DEEBFF</ac:parameter>\n<ac:rich-text-body><p>示例信息。</p></ac:rich-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "status",
+    "storage": "<ac:structured-macro ac:name=\"status\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"colour\">Yellow</ac:parameter>\n<ac:parameter ac:name=\"title\">演示模板，非实测</ac:parameter>\n<ac:parameter ac:name=\"subtle\">false</ac:parameter>\n</ac:structured-macro>"
+  },
+  {
+    "name": "expand",
+    "storage": "<ac:structured-macro ac:name=\"expand\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"title\">方法详情</ac:parameter>\n<ac:rich-text-body><p>示例方法。</p></ac:rich-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "toc",
+    "storage": "<ac:structured-macro ac:name=\"toc\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"minLevel\">2</ac:parameter>\n<ac:parameter ac:name=\"maxLevel\">3</ac:parameter>\n</ac:structured-macro><h2>结论</h2><h3>数据</h3>"
+  },
+  {
+    "name": "code",
+    "storage": "<ac:structured-macro ac:name=\"code\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"language\">bash</ac:parameter>\n<ac:parameter ac:name=\"title\">演示命令，发布前替换</ac:parameter>\n<ac:parameter ac:name=\"linenumbers\">true</ac:parameter>\n<ac:parameter ac:name=\"collapse\">true</ac:parameter>\n<ac:plain-text-body><![CDATA[python benchmark.py --help]]></ac:plain-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "styled_table",
+    "storage": "<table class=\"wrapped\"><colgroup><col style=\"width: 180px;\"/><col style=\"width: 140px;\"/></colgroup><tbody><tr><th>方案</th><th>耗时（μs）</th></tr><tr><td>A</td><td style=\"text-align: right;\">120.0</td></tr><tr><td>B</td><td style=\"text-align: right;\">80.0</td></tr><tr><td style=\"background-color: #E3FCEF;\">C（示例推荐）</td><td style=\"text-align: right; background-color: #E3FCEF;\">60.0</td></tr></tbody></table>"
+  },
+  {
+    "name": "chart",
+    "storage": "<ac:structured-macro ac:name=\"chart\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"type\">bar</ac:parameter>\n<ac:parameter ac:name=\"title\">演示：组件耗时（μs，越低越好）</ac:parameter>\n<ac:parameter ac:name=\"width\">760</ac:parameter>\n<ac:parameter ac:name=\"height\">340</ac:parameter>\n<ac:parameter ac:name=\"legend\">false</ac:parameter>\n<ac:parameter ac:name=\"displayData\">false</ac:parameter>\n<ac:parameter ac:name=\"showIn3D\">false</ac:parameter>\n<ac:parameter ac:name=\"colors\">#4C9AFF</ac:parameter>\n<ac:parameter ac:name=\"rangeAxisLowerBound\">0</ac:parameter>\n<ac:parameter ac:name=\"dataOrientation\">horizontal</ac:parameter>\n<ac:rich-text-body><table><tbody><tr><th>方案</th><th>A</th><th>B</th><th>C</th></tr><tr><td>耗时</td><td>120</td><td>80</td><td>60</td></tr></tbody></table></ac:rich-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "plantuml",
+    "storage": "<ac:structured-macro ac:name=\"plantuml\" ac:schema-version=\"1\">\n<ac:plain-text-body><![CDATA[@startuml\nClient -> Service: Request\nService --> Client: Response\n@enduml]]></ac:plain-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "drawio",
+    "storage": "<ac:structured-macro ac:name=\"drawio\" ac:schema-version=\"1\">\n<ac:parameter ac:name=\"diagramName\">capability-probe-missing-diagram</ac:parameter>\n</ac:structured-macro>"
+  },
+  {
+    "name": "markdown",
+    "storage": "<ac:structured-macro ac:name=\"markdown\" ac:schema-version=\"1\">\n<ac:plain-text-body><![CDATA[## 示例标题\n**示例重点**]]></ac:plain-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "mermaid",
+    "storage": "<ac:structured-macro ac:name=\"mermaid\" ac:schema-version=\"1\">\n<ac:plain-text-body><![CDATA[graph LR\n A[Input] --> B[Output]]]></ac:plain-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "html_macro",
+    "storage": "<ac:structured-macro ac:name=\"html\" ac:schema-version=\"1\">\n<ac:plain-text-body><![CDATA[<div>示例内容</div>]]></ac:plain-text-body>\n</ac:structured-macro>"
+  },
+  {
+    "name": "native_text_styling",
+    "storage": "<p><span style=\"color: rgb(0,82,204);font-size: 24px;\">示例</span></p><hr/><blockquote><p>范围说明</p></blockquote>"
+  },
+  {
+    "name": "attachment_link",
+    "storage": "<p><ac:link><ri:attachment ri:filename=\"capability-probe-missing.zip\"/><ac:plain-text-link-body><![CDATA[示例附件，需实际上传]]></ac:plain-text-link-body></ac:link></p>"
+  }
+]

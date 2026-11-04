@@ -1,0 +1,63 @@
+<ac:layout>
+<ac:layout-section ac:type="single"><ac:layout-cell><p><strong>演示模板：</strong>所有结论、数字、状态和命令均须替换为真实资料。</p><ac:structured-macro ac:name="status" ac:schema-version="1">
+<ac:parameter ac:name="colour">Yellow</ac:parameter>
+<ac:parameter ac:name="title">演示模板，非实测</ac:parameter>
+<ac:parameter ac:name="subtle">false</ac:parameter>
+</ac:structured-macro></ac:layout-cell></ac:layout-section>
+<ac:layout-section ac:type="three_equal"><ac:layout-cell><ac:structured-macro ac:name="panel" ac:schema-version="1">
+<ac:parameter ac:name="title">建议</ac:parameter>
+<ac:parameter ac:name="borderStyle">solid</ac:parameter>
+<ac:parameter ac:name="borderColor">#DFE1E6</ac:parameter>
+<ac:parameter ac:name="bgColor">#F4F5F7</ac:parameter>
+<ac:parameter ac:name="titleBGColor">#DEEBFF</ac:parameter>
+<ac:rich-text-body><p><strong>方案 C（演示）</strong></p><p>填写适用场景。</p></ac:rich-text-body>
+</ac:structured-macro></ac:layout-cell><ac:layout-cell><ac:structured-macro ac:name="panel" ac:schema-version="1">
+<ac:parameter ac:name="title">验证范围</ac:parameter>
+<ac:parameter ac:name="borderStyle">solid</ac:parameter>
+<ac:parameter ac:name="borderColor">#DFE1E6</ac:parameter>
+<ac:parameter ac:name="bgColor">#F4F5F7</ac:parameter>
+<ac:parameter ac:name="titleBGColor">#DEEBFF</ac:parameter>
+<ac:rich-text-body><p><strong>待填写</strong></p><p>明确已测项目及样本。</p></ac:rich-text-body>
+</ac:structured-macro></ac:layout-cell><ac:layout-cell><ac:structured-macro ac:name="panel" ac:schema-version="1">
+<ac:parameter ac:name="title">关键差值</ac:parameter>
+<ac:parameter ac:name="borderStyle">solid</ac:parameter>
+<ac:parameter ac:name="borderColor">#DFE1E6</ac:parameter>
+<ac:parameter ac:name="bgColor">#F4F5F7</ac:parameter>
+<ac:parameter ac:name="titleBGColor">#DEEBFF</ac:parameter>
+<ac:rich-text-body><p><strong>仅填实测数据</strong></p><p>同时注明场景、基线与单位。</p></ac:rich-text-body>
+</ac:structured-macro></ac:layout-cell></ac:layout-section>
+<ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="info" ac:schema-version="1">
+<ac:parameter ac:name="title">口径说明</ac:parameter>
+<ac:rich-text-body><p>说明比较对象、统计口径和未覆盖范围；本模板数据不代表任何实际性能。</p></ac:rich-text-body>
+</ac:structured-macro><ac:structured-macro ac:name="toc" ac:schema-version="1">
+<ac:parameter ac:name="minLevel">2</ac:parameter>
+<ac:parameter ac:name="maxLevel">3</ac:parameter>
+</ac:structured-macro><h2>关键结果</h2><ac:structured-macro ac:name="chart" ac:schema-version="1">
+<ac:parameter ac:name="type">bar</ac:parameter>
+<ac:parameter ac:name="title">演示：组件耗时（μs，越低越好）</ac:parameter>
+<ac:parameter ac:name="width">760</ac:parameter>
+<ac:parameter ac:name="height">340</ac:parameter>
+<ac:parameter ac:name="legend">false</ac:parameter>
+<ac:parameter ac:name="displayData">false</ac:parameter>
+<ac:parameter ac:name="showIn3D">false</ac:parameter>
+<ac:parameter ac:name="colors">#4C9AFF</ac:parameter>
+<ac:parameter ac:name="rangeAxisLowerBound">0</ac:parameter>
+<ac:parameter ac:name="dataOrientation">horizontal</ac:parameter>
+<ac:rich-text-body><table><tbody><tr><th>方案</th><th>A</th><th>B</th><th>C</th></tr><tr><td>耗时</td><td>120</td><td>80</td><td>60</td></tr></tbody></table></ac:rich-text-body>
+</ac:structured-macro><table class="wrapped"><colgroup><col style="width: 180px;"/><col style="width: 140px;"/></colgroup><tbody><tr><th>方案</th><th>耗时（μs）</th></tr><tr><td>A</td><td style="text-align: right;">120.0</td></tr><tr><td>B</td><td style="text-align: right;">80.0</td></tr><tr><td style="background-color: #E3FCEF;">C（示例推荐）</td><td style="text-align: right; background-color: #E3FCEF;">60.0</td></tr></tbody></table><h2>结论与选择</h2><p>填写推荐方案、依据和适用条件。</p><ac:structured-macro ac:name="warning" ac:schema-version="1">
+<ac:parameter ac:name="title">限制与待验证项</ac:parameter>
+<ac:rich-text-body><p>填写影响决策的限制，保持可见，不放进折叠区。</p></ac:rich-text-body>
+</ac:structured-macro><h2>实验方法</h2><ac:structured-macro ac:name="expand" ac:schema-version="1">
+<ac:parameter ac:name="title">环境、采样与完整结果</ac:parameter>
+<ac:rich-text-body><p>填写软硬件版本、预热、样本量、聚合方式和原始数据链接。</p></ac:rich-text-body>
+</ac:structured-macro><h2>复现与资料</h2><ac:structured-macro ac:name="expand" ac:schema-version="1">
+<ac:parameter ac:name="title">复现命令与预期输出</ac:parameter>
+<ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">bash</ac:parameter>
+<ac:parameter ac:name="title">演示命令，发布前替换</ac:parameter>
+<ac:parameter ac:name="linenumbers">true</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[python benchmark.py --help]]></ac:plain-text-body>
+</ac:structured-macro></ac:rich-text-body>
+</ac:structured-macro><p>在此添加已核验的附件或来源链接。</p></ac:layout-cell></ac:layout-section>
+</ac:layout>

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.local/
+cookies.json
+*cookies*.sqlite*
+references/local-profile.md
+*.local.md
+*.log
+.DS_Store

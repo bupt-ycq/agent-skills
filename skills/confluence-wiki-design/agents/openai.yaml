@@ -1,0 +1,4 @@
+interface:
+  display_name: "Confluence Wiki 排版与美化"
+  short_description: "按页面用途选择布局和宏，探测站点能力，通过 API 排版并核验发布结果"
+  default_prompt: "使用 $confluence-wiki-design 美化这个 Wiki 页面，保留原始内容，按站点实际支持的宏组织摘要、图表、表格和折叠详情。"

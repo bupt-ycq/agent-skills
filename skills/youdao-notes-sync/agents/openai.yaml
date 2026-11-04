@@ -1,0 +1,4 @@
+interface:
+  display_name: "有道云备份与私有仓库同步"
+  short_description: "安装有道云导出工具、同步本地笔记并更新 GitHub 私有仓库"
+  default_prompt: "使用 $youdao-notes-sync 将有道云最新内容同步到本地，并更新我的 GitHub 私有仓库。"
