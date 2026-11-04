@@ -9,7 +9,7 @@ description: 安装或使用 youdaonote-pull，把有道云笔记、图片和附
 
 ## 入口与个人配置
 
-- 已有部署时，先核实用户指定的项目目录、导出目录、实际登录账号和私有仓库；可用 [配置示例](references/local-profile.example.md) 记录非敏感设置。个人配置放到仓库外，不提交历史清单、笔记路径或运行状态。
+- 此电脑已有部署时，先读 [local-profile.md](references/local-profile.md)，核实目录、登录账号及仓库状态；其中的路径是可覆盖的个人默认值，不是其他电脑的要求。
 - 首次安装、Python 兼容问题：读 [installation.md](references/installation.md)。
 - Cookie 过期、本机会话导入、GitHub 账号或授权问题：读 [authentication.md](references/authentication.md)。不要把账号授权当成已完成，必须通过真实接口核实。
 - 下载和推送的具体步骤、脚本参数：读 [sync-workflow.md](references/sync-workflow.md)。

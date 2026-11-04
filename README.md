@@ -77,7 +77,7 @@ skills/
 
 ## 数据与授权范围
 
-这是公开的技能仓库，不是笔记备份仓库。账号凭据、Cookie、私人笔记、页面快照、机器路径和运行状态均应保存在仓库之外。个人配置可参考[有道云配置示例](skills/youdao-notes-sync/references/local-profile.example.md)。
+这是公开的技能仓库，不是笔记备份仓库。账号凭据、Cookie、私人笔记和页面快照不包含在本仓库中。按仓库所有者要求，保留原始[本机配置档案](skills/youdao-notes-sync/references/local-profile.md)，其中包含个人部署路径、目标仓库名称和历史同步记录，不含登录凭据。这些配置只适用于原部署环境，其他使用者应替换为自己的配置，可参考[配置示例](skills/youdao-notes-sync/references/local-profile.example.md)。
 
 安装技能不会自动发布文章、修改 Wiki 或上传笔记；每次执行以当次用户要求为准。有道云内容的上传目标必须核实为私有仓库。知乎发布后的转发、私信等属于额外操作。
 

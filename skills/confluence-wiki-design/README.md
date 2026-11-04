@@ -14,7 +14,11 @@
 
 ## 安装
 
-本技能现在收录于 [agent-skills](https://github.com/bupt-ycq/agent-skills)，安装方式见[仓库首页](../../README.md)。安装目标是本目录 `skills/confluence-wiki-design`，不要把整个合集作为一个 skill 安装。
+将仓库放到 Codex 的技能目录中。若目标目录已存在，请先检查已有内容，不要覆盖本地修改。
+
+```bash
+git clone https://github.com/bupt-ycq/confluence-wiki-design.git "${CODEX_HOME:-$HOME/.codex}/skills/confluence-wiki-design"
+```
 
 API 工具依赖 Python 3 和 requests；使用独立虚拟环境即可：
 

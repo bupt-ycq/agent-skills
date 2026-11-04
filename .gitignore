@@ -6,7 +6,6 @@ __pycache__/
 .local/
 cookies.json
 *cookies*.sqlite*
-references/local-profile.md
 *.local.md
 *.log
 .DS_Store
